@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous">
+        </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous">
+        </script>
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <title>PA3 | Responsive Portfolio</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <script defer src="JavaScript/main.js"></script>
+    <link rel="shortcut icon" type="image" href="Images/folder-open-regular.svg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e729c6e4c5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav id="sidebar" class="fixed-left">
+            <div class="sidebar-header">
+                <h3>Home</h3>
+            </div>
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <a href="index.html"><i class="fa-sharp fa-solid fa-house"></i>Home</a>
+                </li>
+                <li>
+                    <a href="#projectsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i
+                            class="fa-solid fa-diagram-project"></i>Projects</a>
+                    <ul class="collapse list-unstyled" id="projectsSubmenu">
+                        <li>
+                            <a href="webDev.html">Web Development</a>
+                        </li>
+                        <li>
+                            <a href="unity.html">Unity</a>
+                        </li>
+                        <li>
+                            <a href="artwork.html">Artwork</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="experience.html"><i class="fa-solid fa-file"></i>Experience</a>
+                </li>
+                <li>
+                    <a href="contact.html"><i class="fa-sharp fa-solid fa-address-book"></i>Contact</a>
+                </li>
+            </ul>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </nav>
+        <div id="content">
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                    </button>
+                    <h1>Carson McMahan's Portfolio Website</h1>
+                </div>
+            </nav>
+            <div class="container-fluid">
+                <div class="row g-0">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="Images/Portrait.jpg" alt="Portrait" class="img-fluid">
+                            <div class="box">
+                                <h4>Carson John McMahan</h4>
+                                <ul>
+                                    <li>Date of Birth: 07/28/2000</li>
+                                    <li>Age: 22</li>
+                                    <li>Graduation Year: 2024</li>
+                                    <li>Hobbies: Video Games, Movies, and Baseball</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="about-me">
+                            <h2>About Me!</h2>
+                            <p>
+                                My name is Carson McMahan and I am currently a student at
+                                Boise State University. I am enrolled in the GIMM program, which is in the College
+                                of Innovation and Design. GIMM stands for; Games, Interactive, Media, Mobile. In the
+                                GIMM program, I am learning a multitude of different skills, which are applicable
+                                to the technology industry. This includes Wed Development, Game Design, and Animation.
+                            </p>
+                            <p>
+                                Right now, I am working with HTML, CSS, and JavaScript to
+                                learn
+                                frontend and backend development. Another skill set I am learning is Game Development
+                                using the Unity Game Engine. This is definity where GIMM focuses a
+                                majority of its time. I
+                                have
+                                worked on a multitude of different projects ranging frome 2D, 3D, Augmented Reality and
+                                Virtual
+                                reality. Currently I am working on my senior project which is a VR game.
+                            </p>
+                            <p>
+                                My first programing language was C#. I have created multiple Console
+                                Applications and am currently
+                                working on learning Windows Form Application. While C# is my
+                                first programing
+                                language, I hadn't fully learned the language yet. Working on Console Applications and
+                                now
+                                with Windows Form,
+                                I have a much better understanding of the language. Learning C# through Console
+                                Apps has been a lot of fun
+                                and I found something I am passionate about.
+                            </p>
+                            <p>
+                                I am very excited to start my career in this industry because I am a passionate
+                                developer
+                                looking
+                                to be apart of something great.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous">
+        </script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
