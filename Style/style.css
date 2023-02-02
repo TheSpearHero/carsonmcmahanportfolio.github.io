@@ -22,15 +22,7 @@ a:focus {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-.navbar-btn {
-    box-shadow: none;
-    outline: none;
-    border: none;
-}
-
-
 /* SIDEBAR STYLE */
-
 .fixed-left {
     position: fixed;
     top: 0;
@@ -161,15 +153,20 @@ a.article:hover {
     margin-left: 0;
 }
 
-#content .about-me h2 {
-    color: #3c1f35;
-}
-
 .wrapper #content h1 {
     color: #3c1f35;
 }
 
-.wrapper #content p {
+#content h2 {
+    color: #3c1f35;
+}
+
+#content h3 {
+    color: #3c1f35;
+    margin-top: 10px;
+}
+
+#content p {
     margin-bottom: 20px;
     font-size: 18px;
     text-align: justify;
@@ -243,8 +240,49 @@ a.article:hover {
     text-align: left;
 }
 
-/* MEDIAQUERIES */
+/* For bookmarks */
+.bookmarks {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: 0.3s;
+    max-width: 50%;
+    margin-bottom: 50px;
+    transform: translate(50%);
+}
 
+.boxTwo {
+    padding: 2px 16px;
+    background: #f0d2e1;
+    color: black;
+}
+
+.boxTwo h4 {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.boxTwo ul {
+    list-style: none;
+    padding: 2px;
+    text-align: left;
+}
+
+.boxTwo li {
+    padding: 3px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.boxTwo a:hover {
+    background: #000;
+    color: #fff;
+    font-size: 23px;
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* MEDIAQUERIES */
 @media (max-width: 768px) {
     #sidebar {
         margin-left: -250px;
@@ -269,5 +307,17 @@ a.article:hover {
 
     #sidebarCollapse span {
         display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    #content h1 {
+        margin-top: 15px;
+        transform: translate(5%);
+    }
+
+    .bookmarks {
+        max-width: 100%;
+        transform: translate(0);
     }
 }
