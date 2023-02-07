@@ -338,7 +338,6 @@ a.article:hover {
 @media (max-width: 500px) {
     #content h1 {
         margin-top: 15px;
-        transform: translate(5%);
     }
 
     .bookmarks {
