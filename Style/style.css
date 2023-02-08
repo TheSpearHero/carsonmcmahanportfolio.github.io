@@ -162,6 +162,7 @@ a.article:hover {
 
 #content h2 {
     color: #3c1f35;
+    margin-top: 30px;
     margin-bottom: 20px;
     letter-spacing: 3px;
 }
