@@ -259,8 +259,8 @@ a.article:hover {
     border-radius: 10px;
     transition: 0.3s;
     max-width: 50%;
-    margin-bottom: 50px;
     transform: translate(50%);
+    margin-top: 10%;
 }
 
 .boxTwo {
@@ -297,6 +297,7 @@ a.article:hover {
 
 /* YouTube Videos */
 .video {
+    margin: auto;
     position: relative;
     width: 100%;
     overflow: hidden;
