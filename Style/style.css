@@ -102,6 +102,13 @@ a:focus {
     border-top-left-radius: 5px;
 }
 
+#sidebar .social-media a:hover {
+    background: #fff;
+    color: #373066;
+    transition: 0.5s;
+    font-size: 30px;
+}
+
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
@@ -173,8 +180,8 @@ a.article:hover {
 }
 
 #content p {
-    margin-bottom: 20px;
-    font-size: 18px;
+    margin-bottom: 15px;
+    font-size: 20px;
     text-align: justify;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
