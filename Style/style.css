@@ -260,7 +260,6 @@ a.article:hover {
     transition: 0.3s;
     max-width: 50%;
     transform: translate(50%);
-    margin-top: 10%;
 }
 
 .boxTwo {
