@@ -140,11 +140,15 @@ a.article:hover {
 }
 
 #sidebarCollapse {
-    float: right;
+    float: left;
     color: #fff;
     background: #b96c9b;
     border: none;
 }
+
+/* #title {
+    background: #5f58a6;
+} */
 
 /* CONTENT STYLE */
 #content {
@@ -165,6 +169,7 @@ a.article:hover {
 
 .wrapper #content h1 {
     color: #3c1f35;
+    float: right;
 }
 
 #content h2 {
@@ -220,6 +225,10 @@ a.article:hover {
     margin-top: 20px;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.contact {
+    transform: translateY(100%);
 }
 
 /* Card Styles */
@@ -341,6 +350,10 @@ a.article:hover {
     #sidebarCollapse span {
         display: none;
     }
+
+    .contact {
+        transform: translateY(0);
+    }
 }
 
 @media (max-width: 500px) {
@@ -351,5 +364,9 @@ a.article:hover {
     .bookmarks {
         max-width: 100%;
         transform: translate(0);
+    }
+
+    .contact {
+        transform: translateY(0);
     }
 }
