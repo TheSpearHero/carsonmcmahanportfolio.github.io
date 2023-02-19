@@ -194,15 +194,15 @@ a.article:hover {
     color: #717171;
 }
 
-#content #myEmail {
+#content #links {
     text-decoration: underline;
     color: #b96c9b;
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-#content #myEmail:hover {
+#content #links:hover {
     color: #7b99d6;
     transition: 0.5s;
 }
