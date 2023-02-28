@@ -361,6 +361,18 @@ a.article:hover {
         margin-top: 15px;
     }
 
+    #content p {
+        font-size: 15px;
+    }
+
+    #content #links {
+        font-size: 20px;
+    }
+
+    .box li {
+        font-size: 15px;
+    }
+
     .bookmarks {
         max-width: 100%;
         transform: translate(0);
