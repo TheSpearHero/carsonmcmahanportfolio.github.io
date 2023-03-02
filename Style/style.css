@@ -324,6 +324,20 @@ a.article:hover {
     border: none;
 }
 
+/* Images */
+#img {
+    border-radius: 20px;
+    align-items: center;
+    transition: 1s ease;
+}
+
+img:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 1s ease;
+}
+
 /* MEDIAQUERIES */
 @media (max-width: 768px) {
     #sidebar {
