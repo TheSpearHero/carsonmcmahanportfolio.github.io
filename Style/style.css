@@ -303,8 +303,8 @@ a.article:hover {
     padding: 5px;
 }
 
-/* YouTube Videos */
-.video {
+/* Responsive iframe */
+.wrap {
     margin: auto;
     position: relative;
     width: 100%;
