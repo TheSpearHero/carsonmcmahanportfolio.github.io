@@ -85,7 +85,7 @@ a:focus {
 #sidebar .social-media {
     position: absolute;
     bottom: 0;
-    transform: translateX(30%);
+    transform: translateX(75%);
     display: flex;
 }
 
@@ -146,10 +146,6 @@ a.article:hover {
     border: none;
 }
 
-/* #title {
-    background: #5f58a6;
-} */
-
 /* CONTENT STYLE */
 #content {
     width: 100%;
@@ -161,6 +157,17 @@ a.article:hover {
 
 #content .about-me {
     margin: 20px;
+}
+
+#content .about-me li {
+    float: left;
+    font-size: 20px;
+    margin-right: 50px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #717171;
 }
 
 #content.responsive {
@@ -246,8 +253,13 @@ a.article:hover {
     border-radius: 5px;
 }
 
-.contact {
+/* Contact Page */
+#content .contact {
     transform: translateY(100%);
+}
+
+#content .contact p {
+    text-align: center;
 }
 
 /* Card Styles */
