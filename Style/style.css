@@ -127,8 +127,8 @@ a[data-toggle="collapse"] {
     transform: translateY(-50%);
 }
 
-#sidebar ul ul a {
-    font-size: 0.9em;
+#sidebar ul ul li a {
+    font-size: 0.9rem;
     padding-left: 50px;
     background: #373066;
 }
@@ -374,6 +374,7 @@ a.article:hover {
     #sidebar {
         margin-left: -250px;
         width: -250;
+        /* overflow-y: scroll; */
     }
 
     #sidebar.active {
@@ -398,6 +399,18 @@ a.article:hover {
 
     .contact {
         transform: translateY(0);
+    }
+
+    #sidebar ul li a {
+        padding: 23px;
+        font-size: 1.1em;
+        display: block;
+    }
+
+    #sidebar ul ul li a {
+        font-size: 0.8rem;
+        padding-left: 50px;
+        background: #373066;
     }
 }
 
