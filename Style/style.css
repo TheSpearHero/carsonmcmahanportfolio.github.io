@@ -239,6 +239,10 @@ a.article:hover {
     margin-top: 10px;
 }
 
+#content .ux-results {
+    border: solid 2px black;
+}
+
 #submitButton {
     align-items: center;
     color: #fff;
