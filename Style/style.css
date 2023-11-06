@@ -267,7 +267,7 @@ a.article:hover {
 }
 
 /* Card Styles */
-.card {
+/* .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     max-width: 100%;
@@ -295,7 +295,7 @@ a.article:hover {
     padding: 3px;
     font-size: 20px;
     text-align: left;
-}
+} */
 
 /* For bookmarks */
 .bookmarks {
@@ -371,6 +371,10 @@ a.article:hover {
     -ms-transform: scale(1.05);
     transform: scale(1.05);
     transition: 1s ease;
+}
+
+#portrait {
+    transform: translateY(30px);
 }
 
 /* MEDIAQUERIES */
