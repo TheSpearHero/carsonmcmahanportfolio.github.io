@@ -127,8 +127,8 @@ a[data-toggle="collapse"] {
     transform: translateY(-50%);
 }
 
-#sidebar ul ul a {
-    font-size: 0.9em;
+#sidebar ul ul li a {
+    font-size: 0.9rem;
     padding-left: 50px;
     background: #373066;
 }
@@ -239,6 +239,10 @@ a.article:hover {
     margin-top: 10px;
 }
 
+#content .ux-results {
+    border: solid 2px black;
+}
+
 #submitButton {
     align-items: center;
     color: #fff;
@@ -263,7 +267,7 @@ a.article:hover {
 }
 
 /* Card Styles */
-.card {
+/* .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     max-width: 100%;
@@ -291,7 +295,7 @@ a.article:hover {
     padding: 3px;
     font-size: 20px;
     text-align: left;
-}
+} */
 
 /* For bookmarks */
 .bookmarks {
@@ -369,11 +373,16 @@ a.article:hover {
     transition: 1s ease;
 }
 
+#portrait {
+    transform: translateY(30px);
+}
+
 /* MEDIAQUERIES */
 @media (max-width: 768px) {
     #sidebar {
         margin-left: -250px;
         width: -250;
+        /* overflow-y: scroll; */
     }
 
     #sidebar.active {
@@ -398,6 +407,18 @@ a.article:hover {
 
     .contact {
         transform: translateY(0);
+    }
+
+    #sidebar ul li a {
+        padding: 23px;
+        font-size: 1.1em;
+        display: block;
+    }
+
+    #sidebar ul ul li a {
+        font-size: 0.8rem;
+        padding-left: 50px;
+        background: #373066;
     }
 }
 
