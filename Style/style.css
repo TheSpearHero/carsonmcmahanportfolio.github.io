@@ -375,6 +375,7 @@ a.article:hover {
 
 #portrait {
     transform: translateY(30px);
+    border-radius: 25px;
 }
 
 /* MEDIAQUERIES */
