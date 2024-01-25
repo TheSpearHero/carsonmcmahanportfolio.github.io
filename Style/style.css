@@ -266,37 +266,6 @@ a.article:hover {
     text-align: center;
 }
 
-/* Card Styles */
-/* .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    max-width: 100%;
-    margin-bottom: 50px;
-}
-
-.box {
-    padding: 2px 16px;
-    background: #fff;
-    color: black;
-}
-
-.box h4 {
-    text-align: left;
-    padding-top: 10px;
-}
-
-.box ul {
-    list-style: none;
-    padding: 2px;
-    text-align: left;
-}
-
-.box li {
-    padding: 3px;
-    font-size: 20px;
-    text-align: left;
-} */
-
 /* For bookmarks */
 .bookmarks {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -374,8 +343,9 @@ a.article:hover {
 }
 
 #portrait {
-    transform: translateY(30px);
+    transform: translateY(70px);
     border-radius: 25px;
+    box-shadow: -5px 5px 10px #717171;
 }
 
 /* MEDIAQUERIES */
@@ -420,6 +390,10 @@ a.article:hover {
         font-size: 0.8rem;
         padding-left: 50px;
         background: #373066;
+    }
+
+    #portrait {
+        transform: translateY(0);
     }
 }
 
